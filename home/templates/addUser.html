@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>random</title>
+
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+
+        <label for="name">username:</label><br>
+        <input type="text" id="username" name="username" ><br>
+
+        <label for="name">password:</label><br>
+        <input type="text" id="password" name="password" ><br>
+
+        <label for="name">email:</label><br>
+        <input type="text" id="email" name="email" ><br>
+
+        <label for="name">first_name:</label><br>
+        <input type="text" id="first_name" name="first_name" ><br>
+
+        <label for="name">last_name:</label><br>
+        <input type="text" id="last_name" name="last_name" ><br>
+
+
+        <button type="submit" name="addUser" value="post">Submit</button>
+    </form>
+
+</body>
+</html>

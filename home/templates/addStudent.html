@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>random</title>
+
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+       
+        <label for="name">username:</label><br>
+        <input type="text" id="username" name="username" ><br>
+
+        <label for="name">password:</label><br>
+        <input type="text" id="password" name="password" ><br>
+
+        <label for="name">county:</label><br>
+        <input type="text" id="county" name="county" ><br>
+
+        <label for="name">locality:</label><br>
+        <input type="text" id="locality" name="locality" ><br>
+
+        <label for="name">street:</label><br>
+        <input type="text" id="street" name="street" ><br>
+
+        <label for="name">street_number:</label><br>
+        <input type="text" id="street_number" name="street_number" ><br>
+
+        <label for="name">block:</label><br>
+        <input type="text" id="block" name="block" ><br>
+
+        <label for="name">staircase:</label><br>
+        <input type="text" id="staircase" name="staircase" ><br>
+
+        <label for="name">floor:</label><br>
+        <input type="text" id="floor" name="floor" ><br>
+
+        <label for="name">apartament:</label><br>
+        <input type="text" id="apartament" name="apartament" ><br>
+
+        <label for="name">rural:</label><br>
+        <input type="text" id="rural" name="rural" ><br>
+
+        <label for="name">phone1:</label><br>
+        <input type="text" id="phone2" name="phone2" ><br>
+
+        <label for="name">phone2:</label><br>
+        <input type="text" id="phone2" name="phone2" ><br>
+
+        
+
+        <button type="submit" name="addUser" value="post">Submit</button>
+    </form>
+
+</body>
+</html>
